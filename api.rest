@@ -1,0 +1,10 @@
+####
+# POST https://node-mail-sender-tau.vercel.app/api/sendEmail
+POST http://localhost:3000/api/mail
+Content-Type: application/json
+
+{
+        "to":  "mideolaniyi@outlook.com",
+    "subject": "test",
+    "html":  "<p>Hello</p>"
+}
